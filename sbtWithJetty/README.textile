@@ -1,0 +1,28 @@
+Mix of:
+* sbt documentation
+* "sbt web plugin":https://github.com/siasia/xsbt-web-plugin/wiki
+* "helloworld-scala-servlet":https://github.com/schmmd/helloworld-scala-servlet/
+
+Works with sbt 0.11
+
+
+Eclipse integration:
+
+In ~/.sbt/plugins/build.sbt:
+
+@
+resolvers += Classpaths.typesafeResolver
+
+addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse" % "1.5.0")        
+@
+
+Jerkson:
+http://logician.free.fr/index.php/2011/09/16/play-scala-and-json/
+https://github.com/codahale/jerkson
+
+
+Test it:
+* sbt 
+** container:start
+* curl localhost:8080/hello/say
+* etc ( url available in ressources.scala
