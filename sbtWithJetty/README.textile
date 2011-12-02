@@ -20,6 +20,9 @@ Jerkson:
 http://logician.free.fr/index.php/2011/09/16/play-scala-and-json/
 https://github.com/codahale/jerkson
 
+Jersey:
+http://vasilrem.com/blog/software-development/jersey-rest-services-for-scala/
+
 
 Test it:
 * sbt 
